@@ -75,7 +75,7 @@ export default function Hero() {
             <motion.div 
               animate={{ y: [0, -15, 0] }}
               transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-              className="absolute top-10 right-0 glass-orange p-6 rounded-2xl z-20"
+              className="absolute bottom-20 right-0 glass-orange p-6 rounded-2xl z-20"
             >
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center text-white italic font-serif text-2xl">
