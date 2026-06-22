@@ -39,14 +39,15 @@ export default function Differential() {
           </p>
         </motion.div>
 
-        <motion.button 
+        <motion.a 
+          href="#oferta"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4 }}
-          className="mt-12 px-12 py-6 bg-white text-brand-black rounded-3xl font-bold text-lg hover:bg-brand-orange hover:text-white transition-all shadow-2xl"
+          className="inline-block mt-12 px-12 py-6 bg-white text-brand-black rounded-3xl font-bold text-lg hover:bg-brand-orange hover:text-white transition-all shadow-2xl"
         >
           Quero este acompanhamento exclusivo
-        </motion.button>
+        </motion.a>
       </div>
     </section>
   );

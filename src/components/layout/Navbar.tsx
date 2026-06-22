@@ -35,13 +35,14 @@ export default function Navbar() {
               {item}
             </motion.a>
           ))}
-          <motion.button
+          <motion.a
+            href="#oferta"
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
-            className="px-6 py-2.5 btn-primary rounded-full text-sm font-bold"
+            className="px-6 py-2.5 btn-primary rounded-full text-sm font-bold flex items-center justify-center"
           >
             Quero Minha Vaga
-          </motion.button>
+          </motion.a>
         </div>
 
         {/* Mobile Toggle */}
@@ -67,9 +68,13 @@ export default function Navbar() {
               {item}
             </a>
           ))}
-          <button className="w-full py-4 bg-brand-orange text-white rounded-xl font-bold mt-2">
-            Garantir Minha Mentoria
-          </button>
+          <a 
+            href="#oferta"
+            onClick={() => setIsOpen(false)}
+            className="w-full py-4 bg-brand-orange text-white rounded-xl font-bold mt-2 flex items-center justify-center text-center"
+          >
+            Quero Minha Vaga
+          </a>
         </motion.div>
       )}
     </nav>

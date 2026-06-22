@@ -65,10 +65,10 @@ export default function Comparison() {
               ))}
             </ul>
 
-            <button className="mt-12 w-full py-5 btn-primary rounded-2xl font-bold flex items-center justify-center gap-2">
+            <a href="#oferta" className="mt-12 w-full py-5 btn-primary rounded-2xl font-bold flex items-center justify-center gap-2">
               Escolher a Estratégia Vencedora
               <MoveRight size={20} />
-            </button>
+            </a>
           </motion.div>
         </div>
       </div>
