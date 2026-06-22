@@ -100,9 +100,9 @@ export default function Pricing() {
           >
             <p className="text-white/60 mb-4 font-medium">Ficou com alguma dúvida sobre a mentoria?</p>
             <a 
-              href="https://w.app/wxdpfv" 
+              href="https://wa.me/5562991127094?text=Ol%C3%A1%20tenho%20interesse%20na%20sua%20mentoria!!" 
               target="_blank" 
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-3 px-8 py-4 bg-[#25D366]/10 border border-[#25D366]/30 text-[#25D366] rounded-2xl font-bold hover:bg-[#25D366]/20 transition-all group"
             >
               <svg viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
